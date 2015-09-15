@@ -15,5 +15,6 @@ To start this as a daemon, run the following:
 docker run -d --privileged foundry/gocd-dind-jruby
 ```
 
+
 *--privileged* = required in order to run docker inside the box (without privileged, you will be unable to run docker commands e.g. `docker images`).
 
